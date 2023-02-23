@@ -9,7 +9,6 @@ Course intro slides: [https://docs.google.com/presentation/d/1jnxlu82zKUp9QZ0b1C
 - **Happy Easy parts**: used for toy application, easy to teach & learn, most of these never asked in technical interviews
 - **Real Hard parts**: used in the real Industry, very hard to teach & requires some effort to learn, Technical interviews are full of question related to the hard parts
 
-![Untitled](assets/Untitled.png)
 
 ## Student task
 
@@ -46,7 +45,6 @@ Course intro slides: [https://docs.google.com/presentation/d/1jnxlu82zKUp9QZ0b1C
 - [Growth Mindset](https://www.khanacademy.org/college-careers-more/learnstorm-growth-mindset-activities-us)
 - [Mastery learning](https://www.khanacademy.org/khan-for-educators/indiacourse/xb6e0f5a42f01e035:get-started-with-khan-academy-eng/xb6e0f5a42f01e035:advanced-introduction-to-mastery-learning/v/khan-academy-view-of-mastery-learning)
 
-![Untitled](assets/Untitled%201.png)
 
 ---
 
@@ -72,7 +70,6 @@ Course intro slides: [https://docs.google.com/presentation/d/1jnxlu82zKUp9QZ0b1C
 
 - What is Mid Term Revision (MTR) Sprint
     
-    ![Untitled](assets/Untitled%202.png)
     
 - Why MTR Sprint
     - Interviews are fundamentally different and difficult than Evals - on the spot solution, respond to unpredictable circumstances (imagine evals being like a harry potter newspaper where text keeps changing), communication is key, confidence / body lang etc
@@ -299,7 +296,6 @@ let xyz = function(){console.log('Hello')}
     
     Understanding the problem that `Symbol`s are designed to solve:
     
-    ![Untitled](assets/Untitled%203.png)
     
     Symbols are unique and this is the principal advantage of symbols. If we needed to have a string key that is guaranteed to be unique, we may add a counter or a timestamp or a random number, but Symbols looks to be a much cleaner and scalable solution.
     
@@ -685,23 +681,12 @@ pre-requisites:
 - **Remember to make the folder names shorter (without spaces) else git may throw unexpected errors with some files.**
 - **Keep a json file & node modules folder in one of the parent directories, so that we don’t have to do `npm i` for all the projects.**
 
-[package.json](assets/package.json)
 
 *(There are two different types of problem in CP, this should work for both the types)*
 
 ## Things & the places where we store them
 
-![Untitled](assets/Untitled%204.png)
 
-![Untitled](assets/Untitled%205.png)
-
-![Untitled](assets/Untitled%206.png)
-
-![Untitled](assets/Untitled%207.png)
-
-![Untitled](assets/Untitled%208.png)
-
-![Untitled](assets/Untitled%209.png)
 
 Just like different things are stored in a different way, Javascript stores primitives and non-primitives in a very different way.
 
@@ -717,7 +702,7 @@ let’s see an example with a string & arrays
 
 ## Storing `strings` vs storing `arrays`
 
-![Untitled](assets/Untitled%2010.png)
+
 
 Variable created + value directly put on `vs` Variable created + value referenced 
 
@@ -735,7 +720,7 @@ String, Number, Boolean, Null, Undefined, Symbol & Bigint are stored/accessed **
 
 Arrays, Functions & Objects are stored/accessed **by reference**. These can be mutated & hence stored in a much larger area.
 
-![Untitled](assets/Untitled%2011.png)
+
 
 ## Truthy/falsey Values
 
@@ -1149,7 +1134,7 @@ let obj = {name: 'Vivek'}
 
 There are three scopes. Look at the screenshot and try to make a sense of it.
 
-![Untitled](assets/Untitled%2012.png)
+
 
 Javascript is a **two-pass** system. The code is processed (or compiled or parsed) first. In this first phase, the scopes are set up and the grammar of your code is validated. Then in the second phase, the code is executed. 
 
@@ -1325,10 +1310,6 @@ We keep our code inside a function, in order to prevent pollution of the global 
 *Very important note: Make sure that the statement above it ends with a semicolon else javascript engine might teat it as a continuation of that statement and throw weird errors.*
 
 ## Resources:
-
-[JS-the-execution-context.pptx](assets/JS-the-execution-context.pptx)
-
-[JS-the-execution-context.pdf](assets/JS-the-execution-context.pdf)
 
 ## Make sure that students watch both the pre-class videos for the ARRAY Methods. Very important, else it will be difficult to complete Array methods in 1 class.
 
