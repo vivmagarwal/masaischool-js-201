@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://main--eclectic-druid-8683b2.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/vivmagarwal/masaischool-js-201/tree/main/docs/JS201/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/vivmagarwal/masaischool-js-201/tree/main/docs/JS201/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -83,7 +83,7 @@ const config = {
           //   position: 'right',
           // },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/vivmagarwal/masaischool-js-201/tree/main/docs/JS201',
             label: 'Github',
             position: 'right',
           },
@@ -127,7 +127,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/vivmagarwal/masaischool-js-201/tree/main/docs/JS201',
               },
             ],
           },
