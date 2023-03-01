@@ -22,7 +22,6 @@ tags:
 
 </details>
 
-
 <details> <summary>Class-2 - Essential Javascript Concepts - II</summary>
 
 - statements vs expressions
@@ -156,9 +155,8 @@ This **document** is _work in_ `progress`. For **demo** only.
 
 ## Resources \[table format\]
 
-
 | Resource             | Links                                                                              |
-| :--------------------- | :----------------------------------------------------------------------------------- |
+| :------------------- | :--------------------------------------------------------------------------------- |
 | Pre-class Video      | https://course.masaischool.com/lectures/48260                                      |
 | Live-class Recording | https://course.masaischool.com/lectures/48284                                      |
 | Assignment           | https://course.masaischool.com/assignments/21665                                   |
@@ -244,17 +242,15 @@ Some content...
 - [URL path to another document](./installation)
 - [file path to another document](./installation.mdx)
 
-
 | one | two   | three | four | five |
-| ----- | ------- | ------- | ------ | ------ |
+| --- | ----- | ----- | ---- | ---- |
 | six | seven | eight | nine | ten  |
 |     |       |       |      |      |
 |     |       |       |      |      |
 
-
-|  Syntax  | Description |
-| :---------: | ------------- |
-|  Header  | Title       |
+|  Syntax   | Description |
+| :-------: | ----------- |
+|  Header   | Title       |
 | Paragraph | Text        |
 
 ## Elements
@@ -284,18 +280,15 @@ Some content...
   - hard rime
   - ground frost
 
-
 * [ ] one
-* [X] two
+* [x] two
 * [ ] three
 
 > quote one
 
-
-
-
 ![](assets/20230223_152910_image.png)
 
+## `columns`
 
 <columns color="gold">
 
@@ -303,8 +296,8 @@ Some content...
 - two
 - three
 
-```
-  let name = "Vivek";
+```js
+let name = "Vivek";
 ```
 
 ![](assets/20230223_152910_image.png)
@@ -314,3 +307,54 @@ simple text
 </columns>
 
 I can write **Markdown** alongside my _JSX_!
+
+<table>
+<tr><tc>Hello</tc><tc>World</tc></tr>
+<tr><tc>one</tc><tc>
+
+<columns color="gold">
+
+- one
+- two
+- three
+
+```js
+let name = "Vivek";
+```
+
+![](assets/20230223_152910_image.png)
+
+simple text
+
+</columns>
+
+</tc></tr>
+<tr>
+<tc>
+
+[Wikipedia](http://this-is-a-very-long-url-for-information-about-snow.com)
+
+</tc>
+<tc>
+
+* [ ] one
+* [x] two
+* [ ] three
+
+</tc>
+</tr>
+<tr>
+<tc>
+
+- one
+- two
+- three
+
+</tc>
+<tc>
+
+- one
+
+</tc>
+</tr>
+</table>

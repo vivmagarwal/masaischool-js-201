@@ -78,3 +78,29 @@ export const Multicolumn = ({children, color="#eee"}) => (
     {children}
   </div>
 );
+
+export const Markdown = ({children, color="#eee"}) => (
+  <div
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#000',
+      padding: '0.2rem',
+      display: 'flex', 
+      justifyContent: 'space-around',
+    }}>
+    {children}
+  </div>
+);
+
+export const Table = ({ children }) => {
+  return <div className='table'>{children}</div>;
+};
+
+export const Tr = ({ children }) => {
+  return <div className='row'>{children}</div>;
+};
+
+export const Td = ({ children }) => {
+  return <div className='cell'>{children}</div>;
+};

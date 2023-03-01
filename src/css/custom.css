@@ -33,3 +33,63 @@
 img {
   display: block;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: none;
+  padding: 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #f7fafc;
+  font-weight: 600;
+}
+
+/* tbody tr:nth-child(even) {
+  background-color: #edf2f7;
+} */
+
+tbody tr:hover {
+  background-color: #e2e8f0;
+}
+
+td:before {
+  content: attr(data-label);
+  float: left;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  td:before {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.cell {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 10px;
+}
