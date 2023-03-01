@@ -1,3 +1,9 @@
+---
+tags:
+  - Demo
+  - Getting started
+---
+
 # JS201 - Advanced Javascript
 
 ## Learning Objectives for the block:
@@ -289,3 +295,22 @@ Some content...
 
 
 ![](assets/20230223_152910_image.png)
+
+
+<columns color="gold">
+
+- one
+- two
+- three
+
+```
+  let name = "Vivek";
+```
+
+![](assets/20230223_152910_image.png)
+
+simple text
+
+</columns>
+
+I can write **Markdown** alongside my _JSX_!

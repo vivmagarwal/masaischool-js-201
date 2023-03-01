@@ -62,3 +62,19 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
+export const Multicolumn = ({children, color="#eee"}) => (
+  <div
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#000',
+      padding: '0.2rem',
+      display: 'flex', 
+      justifyContent: 'space-around',
+      gap: '20px',
+      padding: '20px 20px 0px 20px'
+    }}>
+    {children}
+  </div>
+);
