@@ -6,7 +6,8 @@ import {
   Table,
   Tr,
   Td,
-  Markdown
+  Markdown,
+  Image
 } from '@site/src/components/HomepageFeatures';
 
 // https://rsuitejs.com/components/table/
@@ -21,4 +22,5 @@ export default {
   tr: Tr,
   tc: Td,
   md: Markdown,
+  image: Image,
 };

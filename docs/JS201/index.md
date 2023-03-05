@@ -288,7 +288,14 @@ Some content...
 
 ![](assets/20230223_152910_image.png)
 
+
+Using custom `image` tag to load image & set width & alignment
+<image src={require('./assets/20230223_152910_image.png').default} width="70%" alignment="center"  />
+
+
 ## `columns`
+
+You can add as many number of markdown elements inside of `columns`. They will show as columns.
 
 <columns color="gold">
 
@@ -301,6 +308,8 @@ let name = "Vivek";
 ```
 
 ![](assets/20230223_152910_image.png)
+
+
 
 simple text
 
@@ -308,38 +317,47 @@ simple text
 
 I can write **Markdown** alongside my _JSX_!
 
-<table>
-<tr><tc>Hello</tc><tc>World</tc></tr>
-<tr><tc>one</tc><tc>
 
-<columns color="gold">
+## Using custom `table` syntax.
 
-- one
-- two
-- three
+I've tried to keep it as simple as possible. Inside of `table`, 
+- `tr` means table-row &
+- `tc` means table-cell
 
-```js
-let name = "Vivek";
+Every thing works as expected. Just remember that markdown at times work funny with white spaces!
+
+If you pass `head` attribute to any of the `tr`'s, they will act as a heading row.
+
+```
+<tr head>
+  <tc>Hello</tc>
+  <tc>World</tc>
+</tr>
 ```
 
-![](assets/20230223_152910_image.png)
+Example: 
 
-simple text
-
-</columns>
-
-</tc></tr>
+<table>
+<tr head>
+  <tc>Hello</tc>
+  <tc>World</tc>
+</tr>
 <tr>
+  <tc>one</tc>
+  <tc>many</tc>
+</tr>
+
+<tr>
+  <tc>
+
+  [Wikipedia](http://this-is-a-very-long-url-for-information-about-snow.com)
+
+  </tc>
 <tc>
 
-[Wikipedia](http://this-is-a-very-long-url-for-information-about-snow.com)
-
-</tc>
-<tc>
-
-* [ ] one
-* [x] two
-* [ ] three
+- [ ] one
+- [x] two
+- [ ] three
 
 </tc>
 </tr>

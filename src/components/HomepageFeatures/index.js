@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const FeatureList = [
   {
@@ -97,10 +98,19 @@ export const Table = ({ children }) => {
   return <div className='table'>{children}</div>;
 };
 
-export const Tr = ({ children }) => {
-  return <div className='row'>{children}</div>;
+export const Tr = ({ head, children }) => {
+  return <div className={`row ${head ? 'row-head' : ''}`}>{children}</div>;
 };
 
 export const Td = ({ children }) => {
   return <div className='cell'>{children}</div>;
+};
+
+export const Image = ({ src, alt="", width = "auto", alignment="center", ...props }) => {
+  return <img 
+    src={useBaseUrl(src)} 
+    alt={alt} 
+    width={width} 
+    className={`align-${alignment}`}
+    {...props} />;
 };
