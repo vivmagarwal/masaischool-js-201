@@ -3,14 +3,13 @@ tags:
   - Demo
   - Getting started
 ---
-
 # JS201 - Advanced Javascript
 
 ## Learning Objectives for the block:
 
 ### Sprint-1
 
-<details> 
+<details>
 
 <summary>Class-1 - Essential Javascript Concepts - I</summary>
 
@@ -155,17 +154,16 @@ This **document** is _work in_ `progress`. For **demo** only.
 
 ---
 
-
 ## Resources \[table format\]
 
+
 | Resource             | Links                                                                              |
-| :------------------- | :--------------------------------------------------------------------------------- |
+| :--------------------- | :----------------------------------------------------------------------------------- |
 | Pre-class Video      | https://course.masaischool.com/lectures/48260                                      |
 | Live-class Recording | https://course.masaischool.com/lectures/48284                                      |
 | Assignment           | https://course.masaischool.com/assignments/21665                                   |
 | Quiz                 | none                                                                               |
 | Review Form          | https://docs.google.com/forms/d/1IBCwA6li-\_Mz_BIWiRyT2WayWctioT6v0sRbK2XczHQ/edit |
-
 
 ## Class wise Resources
 
@@ -235,26 +233,24 @@ Some content...
 
 </details>
 
-<details> <summary>2. Some details containing headings</summary>
-
-- one
-- two
-- three
+<details> <summary>  </summary>
 
 </details>
 
 - [URL path to another document](./installation)
 - [file path to another document](./installation.mdx)
 
+
 | one | two   | three | four | five |
-| --- | ----- | ----- | ---- | ---- |
+| ----- | ------- | ------- | ------ | ------ |
 | six | seven | eight | nine | ten  |
 |     |       |       |      |      |
 |     |       |       |      |      |
 
-|  Syntax   | Description |
-| :-------: | ----------- |
-|  Header   | Title       |
+
+|  Syntax  | Description |
+| :---------: | ------------- |
+|  Header  | Title       |
 | Paragraph | Text        |
 
 ## Elements
@@ -285,17 +281,15 @@ Some content...
   - ground frost
 
 * [ ] one
-* [x] two
+* [X] two
 * [ ] three
 
 > quote one
 
 ![](assets/20230223_152910_image.png)
 
-
 Using custom `image` tag to load image & set width & alignment
 <image src={require('./assets/20230223_152910_image.png').default} width="70%" alignment="center"  />
-
 
 ## `columns`
 
@@ -313,18 +307,16 @@ let name = "Vivek";
 
 ![](assets/20230223_152910_image.png)
 
-
-
 simple text
 
 </columns>
 
 I can write **Markdown** alongside my _JSX_!
 
-
 ## Using custom `table` syntax.
 
-I've tried to keep it as simple as possible. Inside of `table`, 
+I've tried to keep it as simple as possible. Inside of `table`,
+
 - `tr` means table-row &
 - `tc` means table-cell
 
@@ -339,7 +331,7 @@ If you pass `head` attribute to any of the `tr`'s, they will act as a heading ro
 </tr>
 ```
 
-Example: 
+Example:
 
 <table>
 <tr head>
@@ -350,33 +342,16 @@ Example:
   <tc>one</tc>
   <tc>many</tc>
 </tr>
-
-<tr>
-  <tc>
-
-  [Wikipedia](http://this-is-a-very-long-url-for-information-about-snow.com)
-
-  </tc>
-<tc>
-
-- [ ] one
-- [x] two
-- [ ] three
-
-</tc>
-</tr>
-<tr>
-<tc>
-
-- one
-- two
-- three
-
-</tc>
-<tc>
-
-- one
-
-</tc>
-</tr>
 </table>
+
+![](assets/20230313_125534_image.png)
+
+
+
+
+
+
+
+
+
+<image src={ require('./assets/20230313_125534_image.png').default } width="70%" alignment="center" />
