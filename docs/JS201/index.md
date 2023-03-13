@@ -4,7 +4,7 @@ tags:
   - Getting started
 ---
 
-# JS201 - Advanced Javascript DEMO
+# JS201 - Advanced Javascript
 
 ## Learning Objectives for the block:
 
