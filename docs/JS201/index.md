@@ -4,21 +4,23 @@ tags:
   - Getting started
 ---
 
-# JS201 - Advanced Javascript
+# JS201 - Advanced Javascript DEMO
 
 ## Learning Objectives for the block:
 
 ### Sprint-1
 
-<details> <summary>Class-1 - Essential Javascript Concepts - I</summary>
+<details> 
+
+<summary>Class-1 - Essential Javascript Concepts - I</summary>
 
 - Setting expectations & Block introduction
 - scopes
 - hoisting
-- `let`, `var`, `const`
-- `null`, `undefinded` & the temporal dead zone
-- difference in the way primitives & non-primitives are stored internally
-- Introduction to CP
+  - `let`, `var`, `const`
+  - `null`, `undefinded` & the temporal dead zone
+    - difference in the way primitives & non-primitives are stored internally
+    - Introduction to CP
 
 </details>
 
@@ -153,6 +155,7 @@ This **document** is _work in_ `progress`. For **demo** only.
 
 ---
 
+
 ## Resources \[table format\]
 
 | Resource             | Links                                                                              |
@@ -162,6 +165,7 @@ This **document** is _work in_ `progress`. For **demo** only.
 | Assignment           | https://course.masaischool.com/assignments/21665                                   |
 | Quiz                 | none                                                                               |
 | Review Form          | https://docs.google.com/forms/d/1IBCwA6li-\_Mz_BIWiRyT2WayWctioT6v0sRbK2XczHQ/edit |
+
 
 ## Class wise Resources
 
